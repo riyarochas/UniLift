@@ -1,0 +1,55 @@
+# --- GENERAL ---
+.DS_Store
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.orig.*
+*.tsbuildinfo
+
+# --- ENV FILES ---
+.env
+.env.local
+.env.development
+.env.production
+.env*.local
+
+# --- DEPENDENCIES ---
+# Backend
+unilift-backend/node_modules/
+
+# Frontend
+unilift-app/node_modules/
+
+# fallback safety
+node_modules/
+
+# --- EXPO / REACT NATIVE FRONTEND ---
+unilift-app/.expo/
+unilift-app/dist/
+unilift-app/web-build/
+unilift-app/expo-env.d.ts
+unilift-app/.expo-shared/
+
+# --- API FILES YOU WANT TO HIDE ---
+unilift-app/services/api.js
+
+# --- BACKEND GENERATED ---
+unilift-backend/logs/
+unilift-backend/tmp/
+
+# --- NATIVE BUILD FOLDERS ---
+ios/
+android/
+unilift-app/ios/
+unilift-app/android/
+
+# --- CERTIFICATES / KEYS ---
+*.pem
+*.key
+*.p8
+*.p12
+*.jks
+*.mobileprovision
+
+# --- MISC ---
+app-example
