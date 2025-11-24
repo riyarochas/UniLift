@@ -1,4 +1,6 @@
-# --- GENERAL ---
+# ============================
+# GENERAL
+# ============================
 .DS_Store
 npm-debug.*
 yarn-debug.*
@@ -6,44 +8,58 @@ yarn-error.*
 *.orig.*
 *.tsbuildinfo
 
-# --- ENV FILES ---
+# ============================
+# ENVIRONMENT FILES
+# ============================
 .env
 .env.local
 .env.development
 .env.production
 .env*.local
 
-# --- DEPENDENCIES ---
+# ============================
+# DEPENDENCIES
+# ============================
 # Backend
 unilift-backend/node_modules/
 
 # Frontend
 unilift-app/node_modules/
 
-# fallback safety
+# Fallback (safety)
 node_modules/
 
-# --- EXPO / REACT NATIVE FRONTEND ---
+# ============================
+# EXPO / REACT NATIVE FRONTEND
+# ============================
 unilift-app/.expo/
+unilift-app/.expo-shared/
 unilift-app/dist/
 unilift-app/web-build/
 unilift-app/expo-env.d.ts
-unilift-app/.expo-shared/
 
-# --- API FILES YOU WANT TO HIDE ---
+# ============================
+# API FILES TO IGNORE (SENSITIVE)
+# ============================
 unilift-app/services/api.js
 
-# --- BACKEND GENERATED ---
+# ============================
+# BACKEND GENERATED FILES
+# ============================
 unilift-backend/logs/
 unilift-backend/tmp/
 
-# --- NATIVE BUILD FOLDERS ---
+# ============================
+# NATIVE BUILD FOLDERS
+# ============================
 ios/
 android/
 unilift-app/ios/
 unilift-app/android/
 
-# --- CERTIFICATES / KEYS ---
+# ============================
+# CERTIFICATES / KEYS
+# ============================
 *.pem
 *.key
 *.p8
@@ -51,5 +67,7 @@ unilift-app/android/
 *.jks
 *.mobileprovision
 
-# --- MISC ---
+# ============================
+# MISC
+# ============================
 app-example

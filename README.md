@@ -12,11 +12,11 @@ UniLift is a campus-focused carpool platform designed to help students save mone
 
 - Real-Time Route Matching – Matches rides using a custom algorithm that considers:
 
-Pickup proximity
+    Pickup proximity
 
-Drop proximity
+    Drop proximity
 
-Date/time relevance
+    Date/time relevance
 
 Gaussian scoring for smooth ranking
 
@@ -88,25 +88,25 @@ This ensures the best rides show up first, similar to professional carpool apps.
 ## 📷 App Highlights
 
 ### 🔹 Home Screen
-<img src="assets/readme/login.jpeg" width="300"/>
-<img src="assets/readme/verification.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/login.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/verification.jpeg" width="300"/>
 
 
 ### 🔹 Ride Matching Screen
-<img src="assets/readme/search ride.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/search-ride.jpeg" width="300"/>
 
 ### 🔹 Post a Ride Screen
-<img src="assets/readme/post ride.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/post-ride.jpeg" width="300"/>
 
 ### 🔹 Track Driver/Rider Screen
-<img src="assets/readme/track driver.jpeg" width="300"/>
-<img src="assets/readme/track rider.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/track-driver.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/track-rider.jpeg" width="300"/>
 
 ### 🔹 Find Ride on Map Screen
-<img src="assets/readme/map rides.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/map-rides.jpeg" width="300"/>
 
 ### 🔹 Rating Page
-<img src="assets/readme/rating.jpeg" width="300"/>
+<img src="unilift-app/assets/readme/rating.jpeg" width="300"/>
 
 ## 📘 Future Scope
 
